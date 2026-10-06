@@ -1,0 +1,11 @@
+height=float(input("Type your height by meter"))
+weight=int(input("Type your weight"))
+
+if weight/(height**2)<18.5:
+    print("You have to eat!")
+elif 18.5<weight/(height**2)<24.9:
+    print("You are healthy!")
+elif 25<weight/(height**2)<29.9:
+    print("You should go on a diet!")
+else:
+    print("Don't eat anything at all!")
